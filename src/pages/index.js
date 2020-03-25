@@ -7,30 +7,21 @@ import Button from "../components/button"
 
 class IndexPage extends React.Component {
   render() {
-    const siteTitle = "Gatsby Starter Personal Website"
+    const siteTitle = "Beaches To Mountains Podcast"
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          keywords={[`blog`, `podcast`, `hiking`, `outdoors`]}
         />
-        <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
-        <h1>
-          Hey people{" "}
-          <span role="img" aria-label="wave emoji">
-            👋
-          </span>
-        </h1>
-        <p>Welcome to your new Gatsby website. You are on your home page.</p>
+        <img style={{ margin: 0 }} src="./b2m_logo.jpg" alt="Beaches to Mountains Podcast Logo" />
         <p>
-          This starter comes out of the box with styled components and Gatsby's
-          default starter blog running on Netlify CMS.
+        Beaches to Mountains is a podcast about hiking in Southeast US in general and Florida in particular. 
         </p>
-        <p>Now go build something great!</p>
-        <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog</Button>
-        </Link>
+        <p>
+        We are three women from Jacksonville, FL, and hiking has been our passion for a long time. On the podcast, we share tales from the trails, tips, and useful info about hiking.
+        </p>
       </Layout>
     )
   }
